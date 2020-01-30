@@ -2,11 +2,78 @@
   
   "transactionHistory" :{
       "transactions":[
-        {"transactionId":156, "type":0, "friendId":132, "name":"Bob", "amount":2.2}, 
-        {"transactionId":253, "type":1, "friendId":2234, "name":"Apple", "amount":30},
-        {"transactionId":893, "type":1, "friendId":556, "name":"Cindy", "amount":50}
+        {
+          "transactionId":893, 
+          "type":0, 
+          "friendId":132, 
+          "name":"Bob", 
+          "amount":2.2, 
+          "timestamp": "2020-01-19 10:23:54+08",
+          "currency": "HKD",
+          "message": ""
+        }, 
+        {
+          "transactionId":253, 
+          "type":1, 
+          "friendId":2234, 
+          "name":"Apple", 
+          "amount":30, 
+          "timestamp": "2020-01-12 23:04:56+08",
+          "message": "Dinner"
+        },
+        {
+          "transactionId":156, 
+          "type":1, 
+          "friendId":556, 
+          "name":"Cindy", 
+          "amount":50, 
+          "timestamp": "2019-12-03 16:48:01+08",
+          "message": "1F604"
+        }
       ]
   },
+  "transactionHistoryRefresh": {
+    "transactions":[
+        {
+          "transactionId":984, 
+          "type":0, 
+          "friendId":148, 
+          "name":"Roy", 
+          "amount": 10000, 
+          "timestamp": "2020-02-03 00:23:54+08",
+          "currency": "HKD",
+          "message": "Training Course"
+        },
+        {
+          "transactionId":893, 
+          "type":0, 
+          "friendId":132, 
+          "name":"Bob", 
+          "amount":2.2, 
+          "timestamp": "2020-01-19 10:23:54+08",
+          "currency": "HKD",
+          "message": ""
+        }, 
+        {
+          "transactionId":253, 
+          "type":1, 
+          "friendId":2234, 
+          "name":"Apple", 
+          "amount":30, 
+          "timestamp": "2020-01-12 23:04:56+08",
+          "message": "Dinner"
+        },
+        {
+          "transactionId":156, 
+          "type":1, 
+          "friendId":556, 
+          "name":"Cindy", 
+          "amount":50, 
+          "timestamp": "2019-12-03 16:48:01+08",
+          "message": "1F604"
+        }
+      ]
+  }.
   "transaction": {
     "error": []
   }
